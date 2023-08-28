@@ -1,0 +1,108 @@
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+    z-index: 999;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    margin-left: 20px;
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li button{
+    width: 150px;
+    color: red;
+    border-radius: 999px;
+    font-size: 18px;
+    border: 1px solid white;
+    height: 50px;
+} 
+nav ul li button:hover{
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+} 
+.hero{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./../Assets/hero.jpg);
+    background-size: cover;
+}
+.hero .text-content{
+    color: white;
+    text-align: center;
+}
+.hero .text-content h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.hero .text-content h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.hero .text-content button{
+    width: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 999px;
+    font-size: 18px;
+    border: 1px solid red;
+    height: 50px;
+} 
+.hero .text-content button:hover{
+   background-color: white;
+   border: 1px solid white;
+   color: red;
+   transition: 0.5s;
+}
+.beneficios  h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.beneficios .item{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+.beneficios .item .itemphoto{
+    display: flex;
+    justify-content: right;
+
+}
+.beneficios .item .itemphoto .imgItem{
+    width: 40%;
+    height: auto;
+}
+.beneficios .item .item-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+}
+.beneficios .item .item-text h3{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
